@@ -1,7 +1,7 @@
 var respond
-if (!location.href.includes(".com")); {
-    respond = "Check results: Can inject"
+if (!location.href.includes(".com")) {
+  respond = "Can't Inject";
 } else {
-    respond = "Check results: Can't inject"
+  respond = "Can Inject";
 }
 alert(respond);
