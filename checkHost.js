@@ -1,5 +1,5 @@
 if (!location.href.includes(".com")) {
-  alert("Can't Inject");
+  alert("Result: Can't Inject");
 } else {
-  alert("Can Inject");
+  alert("Result: Can Inject");
 }
